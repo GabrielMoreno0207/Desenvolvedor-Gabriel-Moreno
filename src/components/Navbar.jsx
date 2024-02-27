@@ -9,15 +9,15 @@ const Navbar = () => {
     }
 
   return (
-    <div className="z-10 text-gray-500 flex justify-between items-center max-w=[1240px] mx-auto h-24 px-4 text-l">
+    <div className=" text-gray-500 flex justify-between items-center max-w=[1240px] mx-auto h-24 px-4 text-l">
 
         <h1 className='text-3xl font-bold primary-color ml-4'>Gabriel Moreno</h1>
         <ul className='hidden md:flex'>
-            <li className='p-5'>Inicio</li>
-            <li className='p-5'>Serviços</li>
-            <li className='p-5'>Projetos</li>
-            <li className='p-5'>Sobre</li>
-            <li className='p-5'>Contato</li>
+            <li className='p-5'><a href='#inicio'>Inicio</a></li>
+            <li className='p-5'><a href='#experiencia'>Experiencia</a></li>
+            <li className='p-5'><a href='#projetos'>Projetos</a></li>
+            <li className='p-5'><a href='#sobre'>Sobre</a></li>
+            <li className='p-5'><a href='#contato'>Contato</a></li>
             
         </ul>
 
@@ -25,15 +25,15 @@ const Navbar = () => {
             {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
         </div>
 
-        <div className={nav ? 'text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#202121] ease-in-out duration-500'  
+        <div className={nav ? 'z-10 text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#202121] ease-in-out duration-500'  
                                 : 'fixed left-[-100%]'}>
         <h1 className='text-3xl primary-color ml-4'>Dev Front-end UX/UI</h1>
         <ul className='p-8 text-2xl'>
-            <li className='p-2'>Inicio</li>
-            <li className='p-2'>Serviços</li>
-            <li className='p-2'>Projetos</li>
-            <li className='p-2'>Sobre</li>
-            <li className='p-2'>Contato</li>
+        <li className='p-2'><a href='#inicio'>Inicio</a></li>
+        <li className='p-2'><a href='#experiencia'>Experiência</a></li>
+        <li className='p-2'><a href='#projetos'>Projetos</a></li>
+        <li className='p-2'><a href='#sobre'>Sobre</a></li>
+        <li className='p-2'><a href='#contato'>Contato</a></li>
             
         </ul>
         </div>

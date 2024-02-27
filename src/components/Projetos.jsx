@@ -8,7 +8,7 @@ import proj5 from '../assets/proj5.png'
 
 const Projetos = () => {
   return (
-    <div class="py-6 max-w-[1200px] mx-auto">
+    <div class="py-6 max-w-[1200px] mx-auto" id='projetos'>
         <div class="mx-auto px-4 md:px-8">
             <div class="mb-4 flex items-center justify-between gap-8">
               <div class="flex flex-col gap-4">
