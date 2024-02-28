@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Projetos from "./components/Projetos";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
       <Experiencia/>
       <Contato/>
       <Footer/>
+     
 
 
     </div>
