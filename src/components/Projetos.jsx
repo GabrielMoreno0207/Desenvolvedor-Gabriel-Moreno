@@ -1,8 +1,8 @@
 import React from 'react'
-import proj1 from '../assets/proj1.png'
+import proj1 from '../assets/dashboard.png'
 // import proj2 from '../assets/proj2.png'
-import proj3 from '../assets/proj3.png'
-import proj4 from '../assets/proj4.png'
+import proj3 from '../assets/lanchonete.png'
+import proj4 from '../assets/Group1.png'
 import proj5 from '../assets/proj5.png'
 // import proj6 from '../assets/proj6.png'
 
@@ -18,11 +18,14 @@ const Projetos = () => {
                   <p class="text-gray-500">
                       Projetos web, mobile e prototipação.
                   </p>
+                  <p class="text-gray-500">
+                      Tenha acesso a todos os projetos através do Github.
+                  </p>
               </div>
             </div>
             <div class="grid gap-4 grid-cols-2 sm:grid-cols-3 md:gap-6 xl:gap-8">
 
-              <a href="/" class="group h-48 overflow-hidden rounded-lg shadow-lg md:h-80">
+              <a href="/" class="group h-48 overflow-hidden rounded-lg shadow-lg  md:col-span-1 md:h-80">
                   <img src={proj1} alt="" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
               </a>
 
