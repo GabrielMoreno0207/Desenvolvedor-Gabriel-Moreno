@@ -46,8 +46,9 @@ const Hero = () => {
           </div>
         </div>
         <div className='my-auto'>
-          <img className='rounded-xl w-[300px] sm:w-[500px] mx-auto h-auto ' src={profilepic} alt="" />
-        </div>
+  <img className='rounded-xl w-[300px] sm:w-[500px] mx-auto h-auto rotate-image' src={profilepic} alt="" />
+</div>
+
 
       </div>
     </div>
