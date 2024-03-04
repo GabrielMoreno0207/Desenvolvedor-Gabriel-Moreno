@@ -22,7 +22,7 @@ const Sobre = () => {
                     <div className='text-gray-300 my-3'>
                         <h3 className='text-4xl font-semibold mb-5'>Sobre</h3>
                         <p className='text-justify leading-7 w-11/12 mx-auto'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis reprehenderit suscipit itaque molestiae accusantium a odio repellat provident. Aperiam labore adipisci illum ut tempore architecto iure dolorum dicta laborum perferendis?
+                        Olá, sou um desenvolvedor formado em Ciências da Computação e entusiasta do design. Tenho o hobby de jogar nas horas vagas. Sempre atuei no frontend e sempre aspirei trabalhar com o desenvolvimento e prototipação de sites e apps.
                         </p>
                     </div>
 
@@ -38,7 +38,7 @@ const Sobre = () => {
                 </div>
 
                 <div className="bg-[#333333]/40 p-5 rounded-lg">
-                    <h3 className='md:text-4xl text-2xl font-semibold text-white'>10
+                    <h3 className='md:text-4xl text-2xl font-semibold text-white'>5
                         <span>+</span>
 
                     </h3>
