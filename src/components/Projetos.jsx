@@ -3,7 +3,7 @@ import proj1 from '../assets/dashboard.png'
 // import proj2 from '../assets/proj2.png'
 import proj3 from '../assets/lanchonete.png'
 import proj4 from '../assets/Group1.png'
-import proj5 from '../assets/proj5.png'
+import proj5 from '../assets/projetoport.png'
 // import proj6 from '../assets/proj6.png'
 
 const Projetos = () => {
