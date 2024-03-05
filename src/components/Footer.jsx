@@ -21,10 +21,10 @@ const Footer = () => {
                 <FaInstagram/>
             </a>
         </div>
-        {/* Botão para voltar ao topo */}
-        <button onClick={scrollToTop} style={{position: 'fixed', bottom: '20px', right: '30px', fontSize: '48px', color: '#4CAF50', backgroundColor: 'transparent', border: 'none', cursor: 'pointer'}} title="Voltar ao topo">
+       
+        {/* <button onClick={scrollToTop} style={{position: 'fixed', bottom: '20px', right: '30px', fontSize: '48px', color: '#4CAF50', backgroundColor: 'transparent', border: 'none', cursor: 'pointer'}} title="Voltar ao topo">
             <FaArrowCircleUp />
-        </button>
+        </button> */}
     </div>
   )
 }

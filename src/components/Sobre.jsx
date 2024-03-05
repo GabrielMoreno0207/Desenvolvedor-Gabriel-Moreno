@@ -34,7 +34,7 @@ const Sobre = () => {
                         <span>+</span>
 
                     </h3>
-                    <p><span className='md:text-base text-xs'>Anos de experiencia</span></p>
+                    <p><span className='md:text-base text-xs'>Anos de experiência</span></p>
                 </div>
 
                 <div className="bg-[#333333]/40 p-5 rounded-lg">
