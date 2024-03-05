@@ -1,8 +1,8 @@
 import React from 'react';
-import {FaGithubSquare, FaInstagram, FaArrowCircleUp} from 'react-icons/fa'; // Importando um ícone de seta mais apropriado para o botão de voltar ao topo
+import {FaGithubSquare, FaInstagram, FaArrowCircleUp} from 'react-icons/fa';
 
 const Footer = () => {
-  // Função para rolar a página até o topo
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
