@@ -1,5 +1,5 @@
 import React from 'react'
-import eupic from '../assets/profile.png'
+import eupic from '../assets/perfil.jpg'
 const Sobre = () => {
   return (
     <div className='py-10 text-white bg-[#232325] h-auto' id='sobre'>
