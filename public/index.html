@@ -25,26 +25,39 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Dev Gabriel Moreno</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-9DL9TYSN7K"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-9DL9TYSN7K");
+    </script>
+
     <style>
       .rotate-image {
-      animation: rotate 9s infinite linear; /* Você pode ajustar a duração (5s) e o tipo de animação conforme necessário */
-    }
-    
-    @keyframes rotate {
-      from {
-        transform: rotate(0deg);
+        animation: rotate 9s infinite linear; /* Você pode ajustar a duração (5s) e o tipo de animação conforme necessário */
       }
-      to {
-        transform: rotate(360deg);
-      }
-    }
 
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
     </style>
-    
-    
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
     <div id="root"></div>
     <!--
       This HTML file is a template.
