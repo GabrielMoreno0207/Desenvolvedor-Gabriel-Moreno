@@ -1,10 +1,10 @@
 import React from 'react'
 import proj1 from '../assets/dashboard.png'
-import proj6 from '../assets/doutora.png'
+// import proj6 from '../assets/doutora.png'
 import proj3 from '../assets/lanchonete.png'
 import proj4 from '../assets/Group1.png'
 import proj5 from '../assets/projetoport.png'
-import proj7 from '../assets/fit.png'
+// import proj7 from '../assets/fit.png'
 
 const Projetos = () => {
   return (
@@ -41,13 +41,14 @@ const Projetos = () => {
                   <img src={proj5} alt="" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
               </a>
 
-              <a href="/" class="group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-1 md:h-80">
-                  <img src={proj6} alt="" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+              {/* Ajuste das imagens 6 e 7 para exibir sem cortes */}
+              {/* <a href="/" class="group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-1 md:h-80">
+                  <img src={proj6} alt="" class="h-full w-full object-contain object-center transition duration-200 group-hover:scale-110" />
               </a>
 
               <a href="/" class="group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-1 md:h-80">
-                  <img src={proj7} alt="" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-              </a>
+                  <img src={proj7} alt="" class="h-full w-full object-contain object-center transition duration-200 group-hover:scale-110" />
+              </a> */}
             </div>
         </div>
     </div>
